@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "types": []
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "paths": {
+    "@app/*":[ "./app/*" ],
+    "@component":[ "./app/component" ],
+    "@guard":[ "./app/guard" ],
+    "@helper":[ "./app/helper" ],
+    "@layout":[ "./app/layout" ],
+    "@model":[ "./app/model" ],
+    "@service":[ "./app/service" ],
+    "@environment":[ "./environments/environment.ts" ]
+  }
+}

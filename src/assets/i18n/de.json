@@ -1,0 +1,47 @@
+{
+    "app": {
+        "title": "Beispiel Anwendung"
+    },
+    "usermenu": {
+        "profile":"Profil",
+        "logout":"Abmelden"
+    },
+    "login": {
+        "title":"Anmelden",
+        "error-username":"Bitte gib deinen Benutzernamen ein",
+        "error-password":"Bitte gib dein Passwort ein",
+        "btn-login":"Anmelden",
+        "btn-register":"Neuer Account",
+        "snackbar-failed":"Anmelden fehlgeschlagen: ",
+        "snackbar-ok":"Erfolgreich angemeldet!",
+        "placeholder-password": "Passwort",
+        "placeholder-user": "Benutzername"
+    },
+    "register": {
+        "title":"Registrieren",
+        "error-fullname":"Bitte gib deinen vollen Namen ein",
+        "error-username":"Bitte gib deinen neuen Benutzernamen ein",
+        "error-password":"Bitte gib dein neues Passwort ein",
+        "btn-register":"Registrieren",
+        "btn-cancel":"Abbrechen",
+        "snackbar-ok":"Neuer Account erfolgreich erstellt",
+        "snackbar-failed":"Registration fehlgeschlagen: ",
+        "placeholder-fullname":"Voller Name",
+        "placeholder-username":"Benutzername",
+        "placeholder-password":"Passwort"
+    },
+    "profile": {
+        "title":"Profil",
+        "error-fullname":"Bitte gib deinen vollen Namen ein",
+        "error-password":"Bitte gib ein neues Passwort ein, um es zu ändern.",
+        "btn-save":"Speichern",
+        "snackbar-updated":"Benutzer aktualisiert",
+        "snackbar-updatefailed":"Fehler beim speichern: ",
+        "placeholder-newpw":"Neues Passwort",
+        "placeholder-fullname":"Voller Name"
+    },
+    "home": {
+        "greeting":"Hi {{ name }}!",
+        "start":"Dies ist der Start einer coolen neuen Anwendung."
+    }
+}

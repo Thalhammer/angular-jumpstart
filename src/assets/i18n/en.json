@@ -1,0 +1,47 @@
+{
+    "app": {
+        "title": "Sample App"
+    },
+    "usermenu": {
+        "profile":"Profile",
+        "logout":"Logout"
+    },
+    "login": {
+        "title":"Login",
+        "error-username":"Please enter your user name",
+        "error-password":"Please enter your password",
+        "btn-login":"Login",
+        "btn-register":"Register",
+        "snackbar-failed":"Login failed: ",
+        "snackbar-ok":"Login ok",
+        "placeholder-password": "Password",
+        "placeholder-user": "User"
+    },
+    "register": {
+        "title":"Register",
+        "error-fullname":"Please enter your full name",
+        "error-username":"Please enter your new username",
+        "error-password":"Please enter a password",
+        "btn-register":"Register",
+        "btn-cancel":"Cancel",
+        "snackbar-ok":"Registration successful",
+        "snackbar-failed":"Registration failed: ",
+        "placeholder-fullname":"Full name",
+        "placeholder-username":"User name",
+        "placeholder-password":"Password"
+    },
+    "profile": {
+        "title":"Profile",
+        "error-fullname":"Please enter your full name",
+        "error-password":"Please enter a new password to change it",
+        "btn-save":"Save",
+        "snackbar-updated":"User updated",
+        "snackbar-updatefailed":"Failed to update user: ",
+        "placeholder-newpw":"New password",
+        "placeholder-fullname":"Full name"
+    },
+    "home": {
+        "greeting":"Hi {{ name }}!",
+        "start":"This is the start of a new cool application."
+    }
+}

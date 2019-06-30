@@ -1,0 +1,20 @@
+<div class="signin-content">
+  <mat-card>
+    <mat-card-title translate>login.title</mat-card-title>
+    <mat-card-content>
+      <img class="logo" src="/assets/img/logo.png">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <mat-form-field class="full-width">
+          <input matInput placeholder="{{ 'login.placeholder-user' | translate }}" formControlName="userName" required>
+          <mat-error *ngIf="isFieldInvalid('userName')" translate>login.error-username</mat-error>
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <input matInput type="password" placeholder="{{ 'login.placeholder-password' | translate }}" formControlName="password" required>
+          <mat-error *ngIf="isFieldInvalid('password')" translate>login.error-password</mat-error>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit">{{ 'login.btn-login' | translate }}</button>
+        <a mat-raised-button color="secondary" routerLink="/register">{{ 'login.btn-register' | translate }}</a>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
