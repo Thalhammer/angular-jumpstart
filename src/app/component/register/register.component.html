@@ -2,7 +2,7 @@
     <mat-card>
         <mat-card-title translate>register.title</mat-card-title>
         <mat-card-content>
-            <img src="/assets/img/logo.png">
+            <img class="logo" src="/assets/img/logo.png">
             <form [formGroup]="form" (ngSubmit)="onSubmit()">
                 <mat-form-field class="full-width">
                     <input matInput placeholder="{{ 'register.placeholder-fullname' | translate }}" formControlName="fullname" required />
