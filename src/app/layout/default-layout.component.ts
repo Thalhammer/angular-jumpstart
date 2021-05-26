@@ -2,7 +2,7 @@ import { Component, ChangeDetectorRef, ViewChild, OnDestroy, OnInit } from '@ang
 import { MediaMatcher } from '@angular/cdk/layout';
 import { AuthenticationService } from '../service';
 import { Router } from '@angular/router';
-import { MatSidenav } from '@angular/material';
+import { MatSidenav } from '@angular/material/sidenav';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({

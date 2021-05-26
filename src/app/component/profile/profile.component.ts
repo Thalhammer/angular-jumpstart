@@ -5,7 +5,7 @@ import { User } from '@model';
 import { AuthenticationService } from '@service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({ templateUrl: 'profile.component.html' })
