@@ -3,7 +3,7 @@ import { Subscription } from 'rxjs';
 
 import { User } from '@model';
 import { AuthenticationService } from '@service';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormBuilder, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { TranslateService } from '@ngx-translate/core';
@@ -13,11 +13,11 @@ export class ProfileComponent implements OnInit, OnDestroy {
     currentUser: User;
     currentUserSubscription: Subscription;
 
-    form: FormGroup;
+    form: UntypedFormGroup;
     private formSubmitAttempt: boolean;
 
     constructor(
-        private fb: FormBuilder,
+        private fb: UntypedFormBuilder,
         private authenticationService: AuthenticationService,
         private snackBar: MatSnackBar,
         private i18n: TranslateService
