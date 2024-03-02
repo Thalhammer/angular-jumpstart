@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2020",
+    "target": "ES2022",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -19,14 +19,31 @@
       "dom"
     ],
     "paths": {
-      "@app/*":[ "./src/app/*" ],
-      "@component":[ "./src/app/component" ],
-      "@guard":[ "./src/app/guard" ],
-      "@helper":[ "./src/app/helper" ],
-      "@layout":[ "./src/app/layout" ],
-      "@model":[ "./src/app/model" ],
-      "@service":[ "./src/app/service" ],
-      "@environment":[ "./src/environments/environment.ts" ]
-    }
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@component": [
+        "./src/app/component"
+      ],
+      "@guard": [
+        "./src/app/guard"
+      ],
+      "@helper": [
+        "./src/app/helper"
+      ],
+      "@layout": [
+        "./src/app/layout"
+      ],
+      "@model": [
+        "./src/app/model"
+      ],
+      "@service": [
+        "./src/app/service"
+      ],
+      "@environment": [
+        "./src/environments/environment.ts"
+      ]
+    },
+    "useDefineForClassFields": false
   }
 }

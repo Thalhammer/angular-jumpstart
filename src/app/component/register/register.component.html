@@ -1,6 +1,8 @@
 <div class="register-content">
     <mat-card>
-        <mat-card-title translate>register.title</mat-card-title>
+        <mat-card-header style="display:block">
+            <mat-card-title translate>register.title</mat-card-title>
+        </mat-card-header>
         <mat-card-content>
             <img class="logo" src="/assets/img/logo.png">
             <form [formGroup]="form" (ngSubmit)="onSubmit()">

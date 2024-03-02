@@ -1,5 +1,7 @@
 <mat-card class="max-width-400 center-page">
-    <mat-card-title translate>profile.title</mat-card-title>
+    <mat-card-header style="display:block">
+        <mat-card-title translate>profile.title</mat-card-title>
+    </mat-card-header>
     <mat-card-content>
         <form [formGroup]="form" (ngSubmit)="onSubmit()">
             <mat-form-field class="full-width">
